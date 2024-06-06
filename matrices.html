@@ -32,8 +32,42 @@
 
           <div class="body" role="main">
             
-  <section id="matrices-module">
-<h1>matrices module<a class="headerlink" href="#matrices-module" title="Link to this heading">¶</a></h1>
+  <section id="module-matrices">
+<span id="matrices-module"></span><h1>matrices module<a class="headerlink" href="#module-matrices" title="Link to this heading">¶</a></h1>
+<section id="id1">
+<h2>Matrices Module<a class="headerlink" href="#id1" title="Link to this heading">¶</a></h2>
+<p>This module provides functions for matrix operations.</p>
+</section>
+<dl class="py function">
+<dt class="sig sig-object py" id="matrices.matrix_addition">
+<span class="sig-prename descclassname"><span class="pre">matrices.</span></span><span class="sig-name descname"><span class="pre">matrix_addition</span></span><span class="sig-paren">(</span><em class="sig-param"><span class="n"><span class="pre">A</span></span></em>, <em class="sig-param"><span class="n"><span class="pre">B</span></span></em><span class="sig-paren">)</span><a class="headerlink" href="#matrices.matrix_addition" title="Link to this definition">¶</a></dt>
+<dd><p>Adds two matrices A and B.</p>
+<dl class="field-list simple">
+<dt class="field-odd">Parameters<span class="colon">:</span></dt>
+<dd class="field-odd"><ul class="simple">
+<li><p><strong>A</strong> (<em>np.ndarray</em>) – First matrix.</p></li>
+<li><p><strong>B</strong> (<em>np.ndarray</em>) – Second matrix.</p></li>
+</ul>
+</dd>
+<dt class="field-even">Returns<span class="colon">:</span></dt>
+<dd class="field-even"><p>Matrix sum of A and B.</p>
+</dd>
+<dt class="field-odd">Return type<span class="colon">:</span></dt>
+<dd class="field-odd"><p>np.ndarray</p>
+</dd>
+</dl>
+<p class="rubric">Example</p>
+<div class="doctest highlight-default notranslate"><div class="highlight"><pre><span></span><span class="gp">&gt;&gt;&gt; </span><span class="kn">import</span> <span class="nn">numpy</span> <span class="k">as</span> <span class="nn">np</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="kn">from</span> <span class="nn">kbc_demo.matrices</span> <span class="kn">import</span> <span class="n">matrix_addition</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">A</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">1</span><span class="p">,</span> <span class="mi">2</span><span class="p">],</span> <span class="p">[</span><span class="mi">3</span><span class="p">,</span> <span class="mi">4</span><span class="p">]])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">B</span> <span class="o">=</span> <span class="n">np</span><span class="o">.</span><span class="n">array</span><span class="p">([[</span><span class="mi">5</span><span class="p">,</span> <span class="mi">6</span><span class="p">],</span> <span class="p">[</span><span class="mi">7</span><span class="p">,</span> <span class="mi">8</span><span class="p">]])</span>
+<span class="gp">&gt;&gt;&gt; </span><span class="n">matrix_addition</span><span class="p">(</span><span class="n">A</span><span class="p">,</span> <span class="n">B</span><span class="p">)</span>
+<span class="go">array([[ 6,  8],</span>
+<span class="go">       [10, 12]])</span>
+</pre></div>
+</div>
+</dd></dl>
+
 </section>
 
 
@@ -55,6 +89,7 @@
 <h3>Navigation</h3>
 <p class="caption" role="heading"><span class="caption-text">Contents:</span></p>
 <ul class="current">
+<li class="toctree-l1"><a class="reference internal" href="kbc-demo.html">kbc-demo</a></li>
 <li class="toctree-l1 current"><a class="reference internal" href="modules.html">kbc-demo</a><ul class="current">
 <li class="toctree-l2 current"><a class="current reference internal" href="#">matrices module</a></li>
 <li class="toctree-l2"><a class="reference internal" href="vectors.html">vectors module</a></li>

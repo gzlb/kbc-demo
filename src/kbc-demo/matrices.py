@@ -19,7 +19,7 @@ def matrix_addition(A, B):
 
     Example:
         >>> import numpy as np
-        >>> from kbc_demo.matrices import matrix_addition
+        >>> from kbc-demo.matrices import matrix_addition
         >>> A = np.array([[1, 2], [3, 4]])
         >>> B = np.array([[5, 6], [7, 8]])
         >>> matrix_addition(A, B)

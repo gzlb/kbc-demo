@@ -18,7 +18,7 @@ def vector_magnitude(v):
 
     Example:
         >>> import numpy as np
-        >>> from kbc_demo.vectors import vector_magnitude
+        >>> from kbc-demo.vectors import vector_magnitude
         >>> v = np.array([3, 4])
         >>> vector_magnitude(v)
         5.0

@@ -9,8 +9,9 @@ Welcome to KBC Sphinx Demo's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-
-   modules
+   intro
+   usage
+   kbc-demo
 
 KBC Demo 
 ========

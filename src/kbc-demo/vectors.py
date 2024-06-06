@@ -8,9 +8,20 @@ import numpy as np
 
 def vector_magnitude(v):
     """
-    Calculate the magnitude of vector v.
-    
-    :param v: Input vector
-    :return: Magnitude of v
+    Calculates the magnitude of vector v.
+
+    Args:
+        v (np.ndarray): Input vector.
+
+    Returns:
+        float: Magnitude of v.
+
+    Example:
+        >>> import numpy as np
+        >>> from kbc_demo.vectors import vector_magnitude
+        >>> v = np.array([3, 4])
+        >>> vector_magnitude(v)
+        5.0
     """
     return np.linalg.norm(v)
+

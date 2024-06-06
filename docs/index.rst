@@ -10,12 +10,7 @@ Welcome to KBC Sphinx Demo's documentation!
    :maxdepth: 2
    :caption: Contents:
 
-   kbc-demo
    modules
-
-KBC Demo 
-========
-
 
 
 Indices and tables

@@ -6,6 +6,12 @@
 # -- Project information -----------------------------------------------------
 # https://www.sphinx-doc.org/en/master/usage/configuration.html#project-information
 
+
+
+import os
+import sys
+sys.path.insert(0, os.path.abspath('../src/kbc-demo'))
+
 project = 'KBC Sphinx Demo'
 copyright = '2024, Burak Guzel'
 author = 'Burak Guzel'
@@ -31,3 +37,4 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 
 html_theme = 'alabaster'
 html_static_path = ['_static']
+

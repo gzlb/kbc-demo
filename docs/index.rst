@@ -9,9 +9,9 @@ Welcome to KBC Sphinx Demo's documentation!
 .. toctree::
    :maxdepth: 2
    :caption: Contents:
-   intro
-   usage
+
    kbc-demo
+   modules
 
 KBC Demo 
 ========
@@ -24,3 +24,6 @@ Indices and tables
 * :ref:`genindex`
 * :ref:`modindex`
 * :ref:`search`
+
+
+
